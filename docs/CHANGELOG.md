@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 2026-11-16 — 新增探索類任務（第二批）
+
+- 在 `data/quests.json` 新增 2 個 exploration 任務：`quest-013` 公共藝術尋寶圖、`quest-014` 市場季節偵查員。
+- 原有 `quest-001`～`quest-012` 未更動；未修改任何 HTML、CSS、JavaScript。
+- 驗證：`node scripts/validate.mjs`（Node v26.13.1）實際執行通過：`PASS: 14 quests, 5 categories, 5 achievements, 5 HTML pages.`（此次一併涵蓋上一批 `quest-011`、`quest-012`）。
+- 以 `python -m http.server` 啟動本機伺服器，透過網站的 `js/data.js` `loadAll()` 實際讀取到兩筆新任務；詳情頁、探索頁、首頁 HTTP 回應皆為 200。
+- 尚未在瀏覽器手動測試畫面渲染、篩選、完成／撤銷 XP 與手機版。
+
 ## 2026-11-16 — 新增探索類任務
 
 - 在 `data/quests.json` 新增 2 個 exploration 任務：`quest-011` 招牌字體收藏家、`quest-012` 路名身世偵探。
