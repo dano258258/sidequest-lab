@@ -1,0 +1,7 @@
+[
+  {"id":"exploration","name":"城市探索","icon":"🧭","description":"發現日常環境裡的新風景"},
+  {"id":"creativity","name":"靈感創作","icon":"🎨","description":"把一點好奇變成作品"},
+  {"id":"wellbeing","name":"療癒生活","icon":"🍵","description":"放慢腳步照顧自己"},
+  {"id":"social","name":"溫柔連結","icon":"💌","description":"和重要的人建立小連結"},
+  {"id":"learning","name":"知識探險","icon":"📖","description":"每天學一個新東西"}
+]

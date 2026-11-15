@@ -1,0 +1,7 @@
+[
+  {"id":"first-step","name":"冒險初啟","icon":"🌟","description":"完成第一個任務","type":"total","threshold":1},
+  {"id":"quest-collector","name":"支線收藏家","icon":"🏅","description":"累積完成 3 個任務","type":"total","threshold":3},
+  {"id":"explorer","name":"街角觀察員","icon":"🧭","description":"完成 2 個城市探索任務","type":"category","category":"exploration","threshold":2},
+  {"id":"creator","name":"靈感點火者","icon":"🎨","description":"完成 2 個靈感創作任務","type":"category","category":"creativity","threshold":2},
+  {"id":"all-rounder","name":"五系冒險家","icon":"🏆","description":"五種任務類型各完成至少一個","type":"distinctCategories","threshold":5}
+]
